@@ -1,0 +1,14 @@
+PROMPT:
+
+A Politically Exposed Person (PEP) is an individual who is or has been entrusted with a prominent public function, such as a head of state, senior politician, senior government, judicial or military official, or an important political party official. PEPs may be at an increased risk of being involved in bribery and corruption due to the influence they hold. Financial institutions are required to take extra measures to identify and monitor PEPs and their associated accounts.
+
+[]
+From the reading above, print the first name and last name of the people from above and occupation in the format of first name, last name, occupation.Head of State: Barack Obama, President Senior Politician: Nancy Pelosi, Speaker of the House Senior Government Official: Janet Yellen, Secretary of the Treasury Judicial Official: John Roberts, Chief Justice of the Supreme Court Military Official: James Mattis, Secretary of Defense Important Political Party Official: Chuck Schumer, Senate Minority Leader 
+ Identify whether they are a PEP (Politically Exposed Person or not).
+
+=========
+
+RESPONSE:
+
+Barack Obama, President - PEP Nancy Pelosi, Speaker of the House - PEP Janet Yellen, Secretary of the Treasury - PEP John Roberts, Chief Justice of the Supreme Court - PEP James Mattis, Secretary of Defense - PEP Chuck Schumer, Senate Minority Leader - PEP
+
