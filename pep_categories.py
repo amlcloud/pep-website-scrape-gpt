@@ -122,6 +122,8 @@ pep_queries_3 = 'Print the information into CSV in the semicolon format and the 
 # Define the empty data
 data = []
 
+
+# Enquire the each name that has been listed on names array using pep_queries_1
 for index, query in enumerate(pep_queries_1):
     
     response = openai.Completion.create(
@@ -135,10 +137,15 @@ for index, query in enumerate(pep_queries_1):
         
     
     )
+
+    # We would only like to print text of the open.completion.create
     _response = response.choices[0]['text']
+
+    # Append the response to the initialised data variable
     data.append(_response)
-    # data += f'{_response}\n'
+
+    # Print the respponse
     print(_response )
 
-
+# Print the overall results
 print(data)
