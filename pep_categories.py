@@ -114,10 +114,8 @@ names.append('Joe Biden')
 print(names)
 
 # Initialise the query
-pep_queries_0 = 'Definition of PEP'
 pep_queries_1 = ['What do you know about the person named {0} who is currently working for UNICEF? Provide with date of birth and nationality as well. Print it with the semicolon separator in the format of Name;DateofBirth;Nationality;PositionHeld;background.'.format(name) for name in names]
-pep_queries_2 = '\nFrom the reading above, print the information in the '
-pep_queries_3 = 'Print the information into CSV in the semicolon format and the format of name,dateofbirth, nationality, position held'
+
 
 # Define the empty data
 data = []
